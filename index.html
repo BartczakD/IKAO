@@ -1,0 +1,488 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width" />
+  <link rel="stylesheet" media="screen" href="screen.css" type="text/css" />
+  <link rel="stylesheet" media="print" href="print.css" type="text/css" />
+  <title>IKAO</title>
+  <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./img/icones/icones-typo/font.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700,800" rel="stylesheet">
+
+</head>
+<body> 
+	<header>
+		<div class="pre-header">
+			<!-- coordonnees -->
+			<div class="container pre-header__content">
+				<nav class="pre-header__coords">
+					<a href="tel:+33101010101">
+						<i class="icon-phone-receiver"></i> +33101010101
+					</a>
+					<a href="mailto:contact@ikao.com">
+						<i class="icon-mail"></i> contact@ikao.com
+					</a>
+				</nav>
+				<!-- mon compte -->
+				<nav class="pre-header__account">
+					<a href="#">Mon compte</a>
+				</nav>
+			</div>
+		</div>
+
+		<div class="container main-header" id="main-header">
+			<!-- logo -->
+			<a href="#" class="main-header__logo">
+				<img src="./img/images/logos/logo.png" alt="Ikao" />
+			</a>
+			<!-- menu -->
+			<nav class="main-header__menu">
+				<a href="#" class="active">Accueil</a>
+				<a href="#">Produits</a>
+				<a href="#">A propos</a>
+				<a href="#">Blog</a>
+				<a href="#" class="contact">Contact</a>
+			</nav>
+
+			<!-- recherche ici pas besoin de formulaire (on a pas de zone de saisie) -->
+			<a href="#" class="main-header__search">
+				<i class="icon-magnifying-glass"></i>
+			</a>
+
+			<!-- panier -->
+			<a href="#" class="main-header__cart">
+				<i class="icon-paper-bag"></i>
+				<span>
+					<strong>Panier</strong>
+					<small>3 produits 74.00 €</small>
+				</span>
+			</a>
+
+			<!-- menu Toogle -->
+			<div class="main-header__toggle">
+				<a href="#main-header" class="main-header__toggle-open">
+					<img src="./img/images/logos/menu.png"style="width:20px" />
+				</a>
+				<a href="#" class="main-header__toggle-close">
+					<img src="./img/images/logos/menu-close.png" style="width:20px" />
+				</a>
+			</div>
+			
+		</div>
+	</header>
+
+
+	<section class="container homepage">
+
+		<div class="products-grid">
+			<!-- ma grille de produits -->
+			<a href="#" class="products-grid__item1"  >
+				        <h4>IDEES DESIGN 2018 </h4>
+					   <h2>Nouvelle</h2>
+                       <h3>collection</h3>
+					   <p>Votre intérieur sera plus beau
+					   Même à la TV c'est pas si beau !</p>
+                      <strong>79,00 €</strong>
+				   
+				
+			</a>
+
+			<a href="#" class="products-grid__item2" style="background-image: url(./img/images/meubles/canape3places.jpg)">
+				<em>CANAPE - FAUTEUIL</em>
+				<strong>Canapé 3 places en cuir</strong>
+                <span class="link-with-arrow">ACHETER <i class="icon-next"></i></span>
+				<span class="products-grid__item2__price">
+					<small>659,00 €</small>
+					<strong>459,00 €</strong>
+				</span>
+				
+			</a>
+
+			<a href="#" class="products-grid__item3" style="background-image: url(./img/images/meubles/coussinsblancs.jpg)">
+				<strong><span>BANC BLANC</span> Avec coussins</strong>
+				<span class="products-grid__item3__price">
+					<strong>99,00 €</strong>
+				</span>
+				<span class="products-grid__item3__cta">
+					Acheter
+				</span>
+			</a>
+
+			<a href="#" class="products-grid__item4" style="background-image: url(./img/images/meubles/chaise-accourdoirs.jpg)">
+				<strong id='chaise'>Chaises et<br />accoudoirs</strong>
+				<span class="products-grid__item4__price">
+					<small>129,00 €</small>
+					<strong>99,00 €</strong>
+				</span>
+				<span class="link-with-arrow">Vite j'en profite <i class="icon-next"></i></span>
+			</a>
+
+			<a href="#" class="products-grid__item5" style="background-image: url(./img/images/meubles/ziodinning.jpg)">
+				<em>Chaises</em>
+				<strong>Zio Dining</strong>
+				<span class="link-with-arrow">Acheter <i class="icon-next"></i></span>
+			</a>
+            
+            <a href="#" class="products-grid__item6" style="background-image: url(./img/images/meubles/tabouret.jpg)">
+				<em>Prix design 2017 - bar</em>
+				<p>
+                    <strong>Tissu rembourré</strong> <span>Cool le tabouret</span></br>
+					Vos fesses n'auront jamais eu autant d'amour ...
+				</p>
+			</a>
+
+			<a href="#" class="products-grid__item7" style="background-image: url(./img/images/meubles/totemfloor.jpg)">
+				<em>Lampes / Accessoires</em>
+				<strong>Totem Floor</strong>
+				<span class="link-with-arrow">Acheter <i class="icon-next"></i></span>
+			</a>
+
+		
+		</div>
+
+		<div class="products-selection">
+			<!-- en ce moment, recents, meilleures ventes ... -->
+			<nav class="products-selection__header">
+				<a href="#" class="is-active">En ce moment</a>
+				<a href="#">Récents</a>
+				<a href="#">Meilleures ventes</a>
+			</nav>
+			<ul class="produts-list">
+				<li class="produts-list__item">
+					<div class="produts-list__picture" style="background-image: url(./img/images/meubles/bombichair1.png)">
+						<div class="produts-list__actions">
+							<a href="#" title="Acheter"><i class="icon-paper-bag"></i>Acheter</a>
+							<a href="#" title="Mettre en favoris"><i class="icon-heart"></i></a>
+							<a href="#" title="Changer de produit"><i class="icon-exchange-arrows"></i></a>
+						</div>
+					</div>
+					<span class="produts-list__legend">
+						<strong>Bombi Chair</strong>
+						<span>399,00 €</span>
+					</span>
+				</li>
+				<li class="produts-list__item">
+					<div class="produts-list__picture" style="background-image:url(./img/images/meubles/seater.png)";>
+						<div class="produts-list__actions">
+							<a href="#" title="Acheter"><i class="icon-paper-bag"></i>Acheter</a>
+							<a href="#" title="Mettre en favoris"><i class="icon-heart"></i></a>
+							<a href="#" title="Changer de produit"><i class="icon-exchange-arrows"></i></a>
+						</div>
+					</div>
+					<span class="produts-list__legend">
+						<strong>Marvelous Seater</strong>
+						<span>599,00 €</span>
+					</span>
+				</li>
+				<li class="produts-list__item">
+					<div class="produts-list__picture" style="background-image: url(./img/images/meubles/chairarmrests.png);">
+                        	<div class="produts-list__tags">
+							<span class="produts-list__tags--green">15%</span>
+						</div>
+						<div class="produts-list__actions">
+							<a href="#" title="Acheter"><i class="icon-paper-bag"></i>Acheter</a>
+							<a href="#" title="Mettre en favoris"><i class="icon-heart"></i></a>
+							<a href="#" title="Changer de produit"><i class="icon-exchange-arrows"></i></a>
+						</div>
+					
+					</div>
+					<span class="produts-list__legend">
+						<strong>Chair Armrests Chair</strong>
+						<span>200,00 €</span>
+					</span>
+				</li>
+				<li class="produts-list__item">
+					<div class="produts-list__picture" style="background-image: url(./img/images/meubles/bombichair.png)">
+						<div class="produts-list__actions">
+							<a href="#" title="Acheter"><i class="icon-paper-bag"></i>Acheter</a>
+							<a href="#" title="Mettre en favoris"><i class="icon-heart"></i></a>
+							<a href="#" title="Changer de produit"><i class="icon-exchange-arrows"></i></a>
+						</div>
+					</div>
+					<span class="produts-list__legend">
+						<strong>Bombi Chair new version</strong>
+						<span>399,00 €</span>
+					</span>
+				</li>
+			</ul>
+
+		</div>
+
+      <!--  <div class="produts-list__legend__container">
+                
+                      <span class="produts-list__legend" style="margin-left:0; padding-left:0;">
+						<strong>Bombi Chair</strong>
+						<span>399,00 €</span>
+					 </span>
+             <span class="produts-list__legend">
+						<strong>Marvelous Seater</strong>
+						<span>599,00 €</span>
+					</span>
+                            <span class="produts-list__legend">
+						<strong>Chair Armrests Chair</strong>
+						<span>200,00 €</span>
+					</span>
+                   <span class="produts-list__legend">
+						<strong>Bombi Chair new version</strong>
+						<span>399,00 €</span>
+					</span>
+        
+        </div> -->
+
+		<ul class="categories">
+			<!-- horloge -->
+			<!-- table basse -->
+			<!-- lampes -->
+			<li class="categories__item" style="background-image: url(./img/images/meubles/horloges.png)">
+				<div class="categories__legend">
+					<span>Décoration</span>
+					<strong>Horloge</strong>
+				</div>
+				<a href="#" class="categories__link link-with-arrow" title="Voir">Voir<i class="icon-next"></i></a>
+			</li>
+			<li class="categories__item" style="background-image: url(./img/images/meubles/tablebase.jpg)">
+				<div class="categories__legend">
+					<span>Tables basses</span>
+					<strong>Palettes paillettes</strong>
+				</div>
+				<a href="#" class="categories__link link-with-arrow" title="Voir">Voir<i class="icon-next"></i></a>
+			</li>
+			<li class="categories__item" style="background-image: url(./img/images/meubles/lampes.png)">
+				<div class="categories__legend">
+					<span>Lampes</span>
+					<strong>Que la lumière soit</strong>
+				</div>
+				<a href="#" class="categories__link link-with-arrow" title="Voir">Voir<i class="icon-next"></i></a>
+			</li>
+		</ul>
+
+		<div class="best-products">
+			<!-- meilleures ventes -->
+			<h3>Meilleures ventes</h3>
+			<ul class="produts-list">
+				<li class="produts-list__item">
+					<div class="produts-list__picture" style="background-image: url(./img/images/meubles/puffchair.jpg)">
+                        <div class="produts-list__tags">
+							<span class="new">New</span>
+						</div>
+						<div class="produts-list__actions">
+							<a href="#" title="Acheter"><i class="icon-paper-bag"></i>Acheter</a>
+							<a href="#" title="Mettre en favoris"><i class="icon-heart"></i></a>
+							<a href="#" title="Changer de produit"><i class="icon-exchange-arrows"></i></a>
+						</div>
+						
+					</div>
+					<span class="produts-list__legend">
+						<strong>Puff Chair</strong>
+						<span>287,00 €</span>
+					</span>
+				</li>
+				<li class="produts-list__item">
+					<div class="produts-list__picture" style="background-image: url(./img/images/meubles/daddychair.jpeg)">
+						<div class="produts-list__actions">
+							<a href="#" title="Acheter"><i class="icon-paper-bag"></i>Acheter</a>
+							<a href="#" title="Mettre en favoris"><i class="icon-heart"></i></a>
+							<a href="#" title="Changer de produit"><i class="icon-exchange-arrows"></i></a>
+						</div>
+					</div>
+					<span class="produts-list__legend">
+						<strong>Daddy Chair</strong>
+						<span>399,00 €</span>
+					</span>
+				</li>
+				<li class="produts-list__item">
+					<div class="produts-list__picture" style="background-image: url(./img/images/meubles/woodchair.jpg)">
+						<div class="produts-list__actions">
+							<a href="#" title="Acheter"><i class="icon-paper-bag"></i>Acheter</a>
+							<a href="#" title="Mettre en favoris"><i class="icon-heart"></i></a>
+							<a href="#" title="Changer de produit"><i class="icon-exchange-arrows"></i></a>
+						</div>
+					</div>
+					<span class="produts-list__legend">
+						<strong>Wood Chair</strong>
+						<span>198,00 €</span>
+					</span>
+				</li>
+				<li class="produts-list__item">
+					<div class="produts-list__picture" style="background-image: url(./img/images/meubles/cheerschair.png)">
+                        <div class="produts-list__tags">
+							<span class="produts-list__tags--green">15%</span>
+							<span class="new">New</span>
+						</div>f
+						<div class="produts-list__actions">
+							<a href="#" title="Acheter"><i class="icon-paper-bag"></i>Acheter</a>
+			<a href="#" title="Mettre en favoris"><i class="icon-heart"></i></a>
+							<a href="#" title="Changer de produit"><i class="icon-exchange-arrows"></i></a>
+						</div>
+						
+					</div>
+					<span class="produts-list__legend">
+						<strong>Cheers Chair</strong>
+						<span>200,00 €</span>
+					</span>
+				</li>
+				<li class="produts-list__item">
+					<div class="produts-list__picture" style="background-image: url(./img/images/meubles/loiretchair.jpg)">
+						<div class="produts-list__actions">
+							<a href="#" title="Acheter"><i class="icon-paper-bag"></i>Acheter</a>
+							<a href="#" title="Mettre en favoris"><i class="icon-heart"></i></a>
+							<a href="#" title="Changer de produit"><i class="icon-exchange-arrows"></i></a>
+						</div>
+					</div>
+					<span class="produts-list__legend">
+						<strong>Loiret Chair</strong>
+						<span>200,00 €</span>
+					</span>
+				</li>
+
+			</ul>
+		</div>
+
+        <!-- <div class="produts-list__legend__container">
+            	<span class="produts-list__legend">
+						<strong>Puff Chair</strong>
+						<span>287,00 €</span>
+					</span>
+                
+                     <span class="produts-list__legend">
+						<strong>Daddy Chair</strong>
+						<span>399,00 €</span>
+					</span>
+             <span class="produts-list__legend">
+						<strong>Wood Chair</strong>
+						<span>198,00 €</span>
+					</span>
+
+                    	<span class="produts-list__legend">
+						<strong>Cheers Chair</strong>
+						<span>200,00 €</span>
+					</span>
+                   	<span class="produts-list__legend">
+						<strong>Loiret Chair</strong>
+						<span>200,00 €</span>
+					</span>
+        
+        </div> -->
+
+	</section>
+
+
+	<div class="partners container">
+		<!-- logos des partenaires (suedois mais pas que) -->
+		<h3>Suédois mais pas que ...</h3>
+		<ul class="container_partners">
+			<li><a href="#" target="_blank"><img src="./img/images/logos/logo1.jpg" /></a></li>
+			<li><a href="#" target="_blank"><img src="./img/images/logos/logo2.jpg" /></a></li>
+			<li><a href="#" target="_blank"><img src="./img/images/logos/logo3.jpg" /></a></li>
+			<li><a href="#" target="_blank"><img src="./img/images/logos/logo4.jpg" /></a></li>
+			<li><a href="#" target="_blank"><img src="./img/images/logos/logo5.jpg" /></a></li>
+			<li><a href="#" target="_blank"><img src="./img/images/logos/logo6.jpg" /></a></li>
+		</ul>
+	</div>
+
+	<footer>
+		<div class="container">
+			<div class="advantages-footer">
+				<!-- livraison offerte, support, carte cadeaux, etc -->
+				<div class="advantages-footer__item">
+					<i class="icon-plane"></i>
+					<strong>Livraison offerte</strong> Pour toute commande
+				</div>
+				<div class="advantages-footer__item">
+					<i class="icon-help-lifeguard-symbol"></i>
+					<strong>Support 24/7</strong> Un problème ? Pas de problème
+				</div>
+				<div class="advantages-footer__item">
+					<i class="icon-dropbox-logo"></i>
+					<strong>Carte cadeaux</strong> Pour faire plaisir
+				</div>
+				<div class="advantages-footer__item">
+					<i class="icon-paper-bill"></i>
+					<strong>Sécurité</strong> Paiement 100% sécurisé
+				</div>
+			</div>
+
+			<div class="main-footer">
+				<!-- liens, logo, newsletter etc -->
+				<div class="company-footer">
+					<img id="img"src="./img/images/logos/logo.png" alt="Ikao" />
+					<p>Les meubles Ikéa, mais en mieux</p>
+					<ul>
+						<li id="element"><i class="icon-placeholder-filled-point"></i>Quelque part, près de Lens</li>
+						<li><a href="tel:+33101010101"> <i class="icon-phone-receiver"></i> +33101010101 </a></li>
+						<li><a href="mailto:contact@ikao.com"> <i class="icon-mail"></i> contact@ikao.com </a></li>
+					</ul>
+				</div>
+
+				<div class="menu-footer">
+					<div class="menu-footer__item item1">
+						<strong>Catégories</strong>
+						<ul>
+							<li><a href="#">Chaises</a></li>
+							<li><a href="#">Canapé</a></li>
+							<li><a href="#">Salon</a></li>
+							<li><a href="#">Chambres</a></li>
+							<li><a href="#">Tables</a></li>
+							<li><a href="#">Nouveautés</a></li>
+						</ul>
+					</div>
+					<div class="menu-footer__item item2">
+						<strong>Information</strong>
+						<ul>
+							<li><a href="#">A propos</a></li>
+							<li><a href="#">Contact</a></li>
+							<li><a href="#">Conditions</a></li>
+							<li><a href="#">Service Client</a></li>
+							<li><a href="#">FAQs</a></li>
+						</ul>
+					</div>
+					<div class="menu-footer__item item3">
+						<strong>Compte</strong>
+						<ul>
+							<li><a href="#">Mon compte</a></li>
+							<li><a href="#">Mes commandes</a></li>
+							<li><a href="#">Panier</a></li>
+							<li><a href="#">Paiement sécurisé</a></li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="newsletter-footer">
+					<strong>Newsletter</strong>
+					<form method="post" action="#">
+						<input type="email" name="email" placeholder="Votre Email" />
+						<button>Souscrire</button>
+					</form>
+					<strong>Nous suivre</strong>
+					<nav class="social-footer">
+						<a href="#" target="_blank"><i class="icon-twitter-logo-silhouette"></i></a>
+						<a href="#" target="_blank"><i class="icon icon-facebook-logo"></i></a>
+						<a href="#" target="_blank"><i class="icon icon-google-plus"></i></a>
+						<a href="#" target="_blank"><i class="icon icon-youtube-logo"></i></a>
+						<a href="#" target="_blank"><i class="icon icon-linkedin-logo"></i></a>
+						<a href="#" target="_blank"><i class="icon icon-whatsapp"></i></a>
+					</nav>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<div class="sub-footer">
+		<div class="container-sub container">
+			<!-- copyright, logos paiement -->
+			<div class="sub-footer__copyright">
+				&copy; <strong>Ikao.com</strong> - tous droits réservés
+			</div>
+
+			<div class="sub-footer__payments">
+				<a href="#" target="_blank"><i class="icon-visa-pay-logo"></i></a>
+				<a href="#" target="_blank"><i class="icon-paypal-logo"></i></a>
+				<a href="#" target="_blank"><i class="icon-mastercard"></i></a>
+				<a href="#" target="_blank"><i class="icon-discover-logo-of-pay-system"></i></a>
+				<a href="#" target="_blank"><i class="icon-amazon"></i></a>
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>
